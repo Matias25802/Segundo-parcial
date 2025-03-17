@@ -1,0 +1,31 @@
+{
+  "name": "segundo_parcial_wilfran_lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+      "build": "tsc",
+      "start": "nodemon --exec ts-node src/server.ts",
+      "dev": "nodemon --exec ts-node src/server.ts"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.10",
+    "@types/pg": "^8.11.11"
+  }
+}

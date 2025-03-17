@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 20px auto; padding: 20px; }
+        form { background: #f4f4f4; padding: 20px; border-radius: 8px; }
+        input, button { padding: 10px; margin: 5px; width: 95%; }
+        #listaUsuarios { margin-top: 20px; }
+        .usuario { background: #fff; padding: 10px; margin: 5px 0; border-radius: 4px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <h1>Registro de Usuarios</h1>
+    
+    <!-- Formulario -->
+    <form id="formUsuario">
+        <input type="text" id="nombre" placeholder="Nombre" required>
+        <input type="text" id="apellido" placeholder="Apellido" required>
+        <input type="text" id="direccion" placeholder="Dirección">
+        <input type="tel" id="telefono" placeholder="Teléfono">
+        <input type="number" id="edad" placeholder="Edad">
+        <input type="email" id="correo" placeholder="Correo electrónico" required>
+        <button type="submit">Guardar</button>
+    </form>
+    
+
+    <!-- Lista de usuarios -->
+    <div id="listaUsuarios">
+        <h2>Usuarios Registrados</h2>
+        <div id="usuarios"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
